@@ -48,7 +48,7 @@ The `Asset Usage Consent` would be implemented as a key in the manifest file.
 There’s a web crawler that is gathering information on available PWAs in order to add them into a application repository. The crawler finds the web application and reads in its manifest that there is developer consent to use the provided screenshots, icons and description to create an entry in such repository. The process can continue automatically without having to sign a license agreement regarding the brand use and copyright of these assets.
 
 ### Scenario 2
-There's a web component from a vendor that that creates “install” experiences based on assets found in the manifest file. The component can display a store-like experience by using the assets linked in the manifest file. 
+There's a web component from a vendor that creates “install” experiences based on assets found in the manifest file. The component can display a store-like experience by using the assets linked in the manifest file. 
 
 ### Scenario 3
 There's an application store that wants to list PWAs and other web applications, therefore it checks the web app manifest file in order to see if it can use the images and screenshots to display it.
