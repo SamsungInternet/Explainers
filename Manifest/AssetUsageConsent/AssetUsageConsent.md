@@ -3,7 +3,7 @@
 * [Diego González-Zúñiga](https://twitter.com/diekus) ([Samsung](https://samsunginter.net))
 
 ## Participate
-* [Explainer on GitHub](https://github.com/SamsungInternet/Explainers/blob/master/Manifest/AssetUsageConsent.md)
+* [Explainer on GitHub](https://github.com/SamsungInternet/Explainers/blob/master/Manifest/AssetUsageConsent/AssetUsageConsent.md)
 
 ## Introduction
 The web app manifest file provides information about a web application in a JSON text file. It contains keys that can be used to describe a web app in order to present it in a similar way to a native app. One of the uses that might come out of this is to create components, storefronts or ways to display this information through the browser or through an app store. The `Asset Usage Consent` is meant to be a new key in the manifest file, that stores a boolean or limited set of values that express the consent of use for brand image and copyright of assets linked in the file, like icons and screenshots.
