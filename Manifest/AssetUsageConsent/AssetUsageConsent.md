@@ -62,3 +62,4 @@ There's an application store that wants to list PWAs and other web applications,
 ## References & acknowledgements
 Many thanks for valuable feedback and advice from:
 * [Daniel Appelquist](https://twitter.com/torgo), [Samsung](https://samsunginter.net) 
+* [Aaron Gustafson](https://twitter.com/aarongustafson), [Microsoft](https://microsoft.com) 
