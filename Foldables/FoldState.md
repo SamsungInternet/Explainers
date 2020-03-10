@@ -147,12 +147,12 @@ Among the values that the screen-posture query can take are:
 @media (screen-fold-posture: laptop) { ... }
 
 /*for a monitor scenario*/
-@media (screen-posture: flat) and (orientation: portrait) { ... }
+@media (screen-fold-posture: flat) and (orientation: portrait) { ... }
 ```
 
 ### New CSS environmental variable: screen-fold-angle
 
-We also propose the addition of a new environmental variable, ‘fold-angle’, which contains the value of the angle on which the screen is folded. The value of this environmental variable is of the CSS angle data type.
+We also propose the addition of a new environmental variable, ‘screen-fold-angle’, which contains the value of the angle on which the screen is folded. The value of this environmental variable is of the CSS angle data type.
 
 ```css
 env(screen-fold-angle);
