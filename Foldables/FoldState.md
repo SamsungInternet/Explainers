@@ -130,7 +130,7 @@ In order to cater to foldable devices, we propose the addition of 2 new media qu
 @media(max-angle: 170deg) and (spanning: single-fold-vertical) { ... }
 ```
 
-### New CSS media query: `screen-posture`
+### New CSS media query: `screen-fold-posture`
 
 We also propose a media query that would resolve to a set of fixed postures. These postures consist of a number of predefined values that each encompass a range of angles.
 
@@ -150,12 +150,12 @@ Among the values that the screen-posture query can take are:
 @media (screen-posture: flat) and (orientation: portrait) { ... }
 ```
 
-### New CSS environmental variable: fold-angle
+### New CSS environmental variable: screen-fold-angle
 
 We also propose the addition of a new environmental variable, ‘fold-angle’, which contains the value of the angle on which the screen is folded. The value of this environmental variable is of the CSS angle data type.
 
 ```css
-env(fold-angle);
+env(screen-fold-angle);
 ```
 
 ### New JS object in `window.screen`: `ScreenFold`
