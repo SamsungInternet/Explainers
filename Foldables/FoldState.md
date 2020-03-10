@@ -144,7 +144,7 @@ Among the values that the screen-posture query can take are:
 #### Examples
 
 ```css
-@media (screen-posture: laptop) { ... }
+@media (screen-fold-posture: laptop) { ... }
 
 /*for a monitor scenario*/
 @media (screen-posture: flat) and (orientation: portrait) { ... }
