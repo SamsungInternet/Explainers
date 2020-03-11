@@ -95,7 +95,7 @@ Another example is a gaming scenario where the bottom part of the screen (or bot
 
 For devices that support it (devices that can fold on their back like the Surface Duo, or the Huawei Mate X that has the screen on the outer part of the device) having the option of passing content to either side of the fold, or accomodate content to create split screen games or similar can be beneficial. (think of a web based “Guess who” or battleship like game on one device) can be implemented by detecting how open the fold is).
 
-![tent mode diagram](tent-mode.svg "tent mode diagram")
+![tent mode diagram](tent-mode.png "tent mode diagram")
 
 Another useful layout can be optimizing for video playback, as this example from using a Surface Duo to view a video.
 
@@ -120,7 +120,7 @@ Examples:
 
 ### New CSS media queries: `min-angle` `max-angle` 
 
-In order to cater to foldable devices, we propose the addition of 2 new media queries ‘min-angle’ and ‘max-angle’ which values can take an angle from the CSS data type.
+In order to cater to foldable devices, we propose the addition of 2 new media queries `min-angle` and `max-angle` which values can take an angle from the CSS data type.
 
 #### Examples
 
