@@ -49,12 +49,6 @@ Event that exposes the transitions between modes such as “book”, “laptop�
 * Not suited to be used in animations since there is no value exposed.
 * Not future-proof, since it assumes the type of folding a device will support.
 
-
-## Non Goals
-
-This proposal does not deal with foldable screens with more than one fold.
-
-
 ## Key Scenarios
 
 ### Scenario 1: Using it like a book! (~130° / ~170°)
@@ -210,8 +204,11 @@ For scenario 4, dealing with animations, the lower resolution might have an impa
 ## Complementary proposals
 * [Web Platform Primitives for Enlightened Experiences on Foldable Devices](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/Foldables/explainer.md)
 
-## Stakeholder Feedback
+## Other related technologies
+Google has recently unveiled the second Android Developer Preview for version 11 which includes a reference to "[Hinge Angle for Foldables](https://android-developers.googleblog.com/2020/03/android-11-developer-preview-2.html)", which should make exposing this value to the browser easier.  
 
+## Stakeholder Feedback
+No stakeholder feedback has been given at this time.
 
 ## References & Acknowledgements
 Many thanks for valuable feedback and advice from:
