@@ -1,3 +1,5 @@
+See the latest draft of the specification [here](https://diek.us/fold-angle)
+
 # Fold Angle Explainer
 
 ## Authors
