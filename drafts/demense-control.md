@@ -1,3 +1,7 @@
+Developed further as [Compute Location](../ComputeLocation/compute-location.md)
+
+---
+
 # Affording the user control over where computations are carried out
 
 ## Authors
